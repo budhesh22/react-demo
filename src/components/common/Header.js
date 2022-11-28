@@ -22,17 +22,17 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/react-demo/home" className="nav-link text-light">
+              <Link to="/demo/home" className="nav-link text-light">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/react-demo/about" className="nav-link text-light">
+              <Link to="/demo/about" className="nav-link text-light">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/react-demo/contact" className="nav-link text-light">
+              <Link to="/demo/contact" className="nav-link text-light">
                 Contact
               </Link>
             </li>
