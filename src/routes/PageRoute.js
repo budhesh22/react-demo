@@ -14,7 +14,7 @@ const PageRoute = () => {
         <Route element={<PublicLayout />}>
           <Route
             exact
-            path="/"
+            path="/react-demo"
             element={
               <Suspense fallback={"Loading"}>
                 <Home />
@@ -23,7 +23,7 @@ const PageRoute = () => {
           ></Route>
           <Route
             exact
-            path="/demo/home"
+            path="/react-demo/home"
             element={
               <Suspense fallback={"Loading"}>
                 <Home />
@@ -32,7 +32,7 @@ const PageRoute = () => {
           ></Route>
           <Route
             exact
-            path="/demo/about"
+            path="/react-demo/about"
             element={
               <Suspense fallback={"Loading"}>
                 <About />
@@ -41,7 +41,7 @@ const PageRoute = () => {
           ></Route>
           <Route
             exact
-            path="/demo/contact"
+            path="/react-demo/contact"
             element={
               <Suspense fallback={"Loading"}>
                 <Contact />
