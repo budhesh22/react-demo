@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_practice=self.webpackChunkreact_practice||[]).push([[951],{1951:function(c,e,a){a.r(e);var t=a(184);e.default=function(){return(0,t.jsx)("h1",{className:"m-5",children:"This Is A Contact Page !"})}}}]);
+//# sourceMappingURL=951.1179399c.chunk.js.map

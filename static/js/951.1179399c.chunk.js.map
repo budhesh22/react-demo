@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/951.1179399c.chunk.js","mappings":"yIAIA,UAJgB,WACd,OAAO,eAAIA,UAAU,MAAK,qCAC5B,C","sources":["pages/Contact.jsx"],"sourcesContent":["const Contact = () => {\n  return <h1 className=\"m-5\">This Is A Contact Page !</h1>;\n};\n\nexport default Contact;\n"],"names":["className"],"sourceRoot":""}

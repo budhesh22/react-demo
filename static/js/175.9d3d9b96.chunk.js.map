@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/175.9d3d9b96.chunk.js","mappings":"yIAIA,UAJc,WACZ,OAAO,eAAIA,UAAU,MAAK,mCAC5B,C","sources":["pages/About.jsx"],"sourcesContent":["const About = () => {\n  return <h1 className=\"m-5\">This Is A About Page !</h1>;\n};\n\nexport default About;\n"],"names":["className"],"sourceRoot":""}
