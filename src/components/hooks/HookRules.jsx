@@ -4,14 +4,16 @@ const HookRules = () => {
   return (
     <div className="hooks-rules mt-4">
       <h4 className="select-hook-demo-title">
-        1- Before You Select Any Hooks Please Read The Rules of Hooks
+        Before You Select Any Hooks Please Read The Rules of Hooks
       </h4>
       <ul>
         <li>
-          <h5>
-            Hooks are JavaScript functions, but they impose two additional
-            rules:
-          </h5>
+          <p>
+            <b>
+              Hooks are JavaScript functions, but they impose two additional
+              rules:
+            </b>
+          </p>
         </li>
         <li>
           <p>
