@@ -1,0 +1,24 @@
+@import "../globle//config.scss";
+
+.container {
+  .row {
+    .use-state-demo-sec {
+      padding: 0px 4px;
+      @include textCenterFunc;
+      .use-state-info {
+        .counter-value {
+          background-color: aliceblue;
+        }
+      }
+      .counter-btn {
+        margin: 0px 5px;
+        .btn-demo-plus {
+          @include bgGreenFunc;
+        }
+        .btn-demo-minus {
+          @include bgBlackFunc;
+        }
+      }
+    }
+  }
+}

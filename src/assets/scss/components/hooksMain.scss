@@ -1,0 +1,19 @@
+@import "../globle/config.scss";
+
+.container {
+  .hook-sec {
+    margin-top: 8px;
+    .select-hook {
+      width: 100%;
+    }
+  }
+  .hook-demo {
+    margin-top: 12px;
+    .show-demo {
+      .select-hook-demo-title {
+        @include bgBlackFunc;
+        padding: 5px;
+      }
+    }
+  }
+}

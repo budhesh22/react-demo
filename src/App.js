@@ -1,7 +1,11 @@
+import { useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "react-toastify/dist/ReactToastify.css";
+
+import "../src/assets/scss/main.scss";
 import PageRoute from "./routes/PageRoute";
-import { useLocation } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   const currentLocation = useLocation();
@@ -9,6 +13,7 @@ const App = () => {
   return (
     <>
       <PageRoute />
+      <ToastContainer />
     </>
   );
 };

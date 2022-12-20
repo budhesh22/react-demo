@@ -1,0 +1,11 @@
+@import "../globle//function.scss";
+
+.main-demo {
+  margin-top: 30px;
+  .btn-demo {
+    @include bgInfoFunc;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../globle/config.scss";
+
+header {
+  background: rgb(124, 115, 115);
+  color: white;
+  padding: 0px 80px;
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    .nav-logo {
+      margin: 10px 0px 0px;
+      :hover {
+        color: rgb(37, 36, 33);
+        cursor: pointer;
+      }
+    }
+    .nav-list-sec {
+      margin: 15px 0px 0px;
+      ul {
+        @include flexFunc;
+        .nav-item {
+          padding: 0px 9px;
+          :hover {
+            color: rgb(37, 36, 33);
+          }
+        }
+      }
+    }
+  }
+}

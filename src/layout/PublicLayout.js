@@ -2,7 +2,7 @@ import { lazy, Suspense } from "react";
 import { Outlet } from "react-router-dom";
 
 const Header = lazy(() => import("../components/common/Header"));
-// const Footer = lazy(() => import("../components/common/Footer"));
+const Footer = lazy(() => import("../components/common/Footer"));
 
 const PublicLayout = () => {
   return (
@@ -13,7 +13,9 @@ const PublicLayout = () => {
       <main className="main-content">
         <Outlet />
       </main>
-      <Suspense fallback={"Loading"}>{/* <Footer /> */}</Suspense>
+      <Suspense fallback={"Loading"}>
+        <Footer />
+      </Suspense>
     </>
   );
 };

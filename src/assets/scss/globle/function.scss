@@ -1,0 +1,24 @@
+@mixin flexFunc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin bgBlackFunc {
+  background-color: black;
+  color: white;
+}
+
+@mixin bgGreenFunc {
+  background-color: green;
+  color: white;
+}
+
+@mixin bgInfoFunc {
+  background-color: rgb(159, 159, 237);
+  color: white;
+}
+
+@mixin textCenterFunc {
+  text-align: center;
+}

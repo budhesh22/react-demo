@@ -1,0 +1,17 @@
+@import "../globle/config.scss";
+
+.container {
+  .row {
+    .use-effect-sec {
+      .use-effect-demo-info {
+        padding: 0px 4px;
+        @include textCenterFunc;
+      }
+      .counter-btn {
+        .btn-demo-plus {
+          @include bgBlackFunc;
+        }
+      }
+    }
+  }
+}

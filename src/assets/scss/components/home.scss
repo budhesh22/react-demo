@@ -1,0 +1,12 @@
+@import "../globle/config.scss";
+
+.main-home-section {
+  .title {
+    font-family: Arial, Helvetica, sans-serif;
+    h2 {
+      @include flexFunc;
+      color: red;
+      background-color: azure;
+    }
+  }
+}

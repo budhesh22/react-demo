@@ -3,9 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import PublicLayout from "../layout/PublicLayout";
 
 const Home = lazy(() => import("../pages/Home"));
-const About = lazy(() => import("../pages/About"));
-const Contact = lazy(() => import("../pages/Contact"));
 const Error = lazy(() => import("../components/common/Error"));
+const HooksMain = lazy(() => import("../components/demo/HooksMain"));
+const LifeCycleMain = lazy(() => import("../components/demo/LifeCycleMain"));
 
 const PageRoute = () => {
   return (
@@ -20,34 +20,34 @@ const PageRoute = () => {
                 <Home />
               </Suspense>
             }
-          ></Route>
+          />
           <Route
             exact
-            path="/demo/home"
+            path="/home"
             element={
               <Suspense fallback={"Loading"}>
                 <Home />
               </Suspense>
             }
-          ></Route>
+          />
           <Route
             exact
-            path="/demo/about"
+            path="/demo/hooks"
             element={
               <Suspense fallback={"Loading"}>
-                <About />
+                <HooksMain />
               </Suspense>
             }
-          ></Route>
+          />
           <Route
             exact
-            path="/demo/contact"
+            path="/demo/life-cycle"
             element={
               <Suspense fallback={"Loading"}>
-                <Contact />
+                <LifeCycleMain />
               </Suspense>
             }
-          ></Route>
+          />
         </Route>
         <Route
           path="*"
@@ -56,7 +56,7 @@ const PageRoute = () => {
               <Error />
             </Suspense>
           }
-        ></Route>
+        />
       </Routes>
     </>
   );
